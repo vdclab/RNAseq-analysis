@@ -3,5 +3,5 @@
 liste=../FASTQfiles/*.fastq
 
 for i in $liste;
-	do ../FastQC_app/fastqc $i -o ~psalguero/Proyectos/miRNA_Cecile/FastQC
+	do ../FastQC_app/fastqc $i -o ../FastQC
 done
