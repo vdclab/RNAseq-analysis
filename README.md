@@ -4,7 +4,7 @@ The repository has all the scripts used for the DE Analysis.
 ## list_samples_names.txt
 List of the samples names
 
-##0_fastqc.sh
+## 0_fastqc.sh
 Run FasQC app to check the quality of the data.
 
 ## 1_run_trimmomatic.sh
@@ -21,3 +21,5 @@ It uses the file "Extract_tablecounts_from_counts.pl" to extract the counts for 
 
 ## DE_analysis.R
 R Script with all the code to process the data and perform the DE Analysis.
+
+Author: Cècile Pereira - cecile.pereira.bibs(at)gmail.com
